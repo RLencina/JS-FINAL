@@ -268,7 +268,7 @@ const addProduct = (e) => {
 
 	if (isExistingCartProduct(product)) {
 		addUnitToProduct(product);
-		showSuccessModal("Se agregó una unidad del producto al carrito");
+		showSuccessModal("Se agregó un producto al carrito");
 	} else {
 		createCartProduct(product);
 		showSuccessModal("El producto se ha agregado al carrito");
@@ -373,20 +373,8 @@ const completeBuy = () => {
 };
 
 const deleteCart = () => {
-	completeCartAction("¿Desea eliminar su carrito?", "Carrito eliminado");
+	completeCartAction("¿Desea vaciar su carrito?", "Carrito eliminado");
 };
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 init()
