@@ -1,5 +1,5 @@
 // Nos traemos todos los elementos necesarios
-const form = document.getElementById("registrar", "login");
+const form = document.getElementById("registrar");
 const nameInput = document.getElementById("username");
 const emailInput = document.getElementById("email");
 const passInput = document.getElementById("password");
@@ -172,6 +172,7 @@ form.addEventListener("submit", (e) => {
 );
 
 /*----------------------INGRESAR -----------------------------*/
+const form2 = document.getElementById ("login")
 const inputname = document.getElementById("usuario");
 const inputpass = document.getElementById("contraseña");
 
@@ -247,7 +248,7 @@ const Success = (input) => {
 /*----------------------------------------------------------*/
 
 // Event Listener para enviar y checkear que todo sea valido.
-form.addEventListener("submit", (e) => {
+form2.addEventListener("submit", (e) => {
 	// Prevenimos por defecto el comportamiento al enviar el form
 	e.preventDefault();
 
@@ -263,10 +264,10 @@ form.addEventListener("submit", (e) => {
 	// Si todos los campos son validos, mostramos un mensaje de exito ( en este caso "enviamos el formulario")
 	if (isloginValid) {
 		console.log("Enviamos el formulario");
-		form.submit();
+		form2.submit();
 	}
 });
-    form.addEventListener(
+    form2.addEventListener(
 	"input",
 	debounce((e) => {
 		switch (e.target.id) {
