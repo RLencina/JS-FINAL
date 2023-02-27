@@ -93,6 +93,9 @@
     .product {
         width: 250px;
     }
+    .product img {
+        height: 230px;
+    }
     .img-p {
         height: 200px;
     }
@@ -107,7 +110,7 @@
       
       }
     .cart-item {
-        width: 245px;
+        width: 255px;
     }
 
 
