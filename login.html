@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Natural</title>
+    <link rel="stylesheet" href="animaciones.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    <link rel="stylesheet" href="./index.html">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="stylelogin.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+      <header>
+        <img src="./img/verde sf.png" alt="Logo Natural" class="logo">
+        <nav class="navbar">
+            
+            <label for="menu-toggle" class="menu-label">
+                <i class="fa-solid fa-bars menu-icon"></i>
+              </label>
+
+           
+            <ul class="navbar_list">
+                <li><a href="./index.html#hero">INICIO</a></li>
+            
+            </ul>
+            
+      </nav>
+      </header>
+      <main>
+        <section id="log"> 
+       
+            <div class="form-box">
+            <div class="button-box">
+                <div id="elegir"></div>
+                <button type="button" class="toggle-btn" onclick="login()">Iniciar Sesion</button>
+                <button type="button" class="toggle-btn" onclick="registrar()">Registrarse </button>
+    
+            </div>
+    
+        <div class="redes-sociales">
+           <img src="./img/facebook.png" alt="">
+           <img src="./img/icono google.png" alt="">
+    
+        </div>
+       
+        <form id="login" class="input-group">
+            <div class="form_field">
+            <input type="text" class="input-field" id="usuario" placeholder="Nombre de Usuario" >
+            <small></small>
+            </div>
+            <div class="form_field">
+            <input type="password" class= "input-field" id="contraseña" placeholder="Contraseña ">
+            <small></small>
+            </div> 
+
+           <a class="ok-account">¿Aún no tienes una cuenta?</a>
+            <input type="submit" class="botonsubmit" value="Acceder" />
+        </form>
+       
+        
+        <form id="registrar" class="input-group">
+            <div class="form__field">
+            <input type="text" class="input-field" id="username" placeholder="Nombre de Usuario">
+            <small></small>
+            </div>
+
+            <div class="form__field">
+            <input type="email" class="input-field" id="email" placeholder="Correo" >
+            <small></small>
+            </div>
+
+            <div class="form__field">
+            <input type="password" class= "input-field" id="password" placeholder="Contraseña ">
+            <small></small>
+            </div>
+
+
+            <a class="no-account">¿Ya tienes una cuenta?</a>
+            <input type="submit" class="submit-btn" value="Acceder" />
+            
+            
+        </form>
+       </div>
+    
+    
+           
+        <script>
+          var x = document.getElementById("login")
+          var y = document.getElementById("registrar")
+          var z = document.getElementById("elegir")
+    
+        function login(){
+        x.style.left="35px"
+        y.style.left="450px"
+        z.style.left="10px"
+        }
+        function registrar(){
+        x.style.left="-400px"
+        y.style.left="30px"
+        z.style.left="140px"
+        }
+    
+        </script>
+    
+    </section>
+    
+    </main>
+      <footer>
+        <div>
+            <ul class="footer-link">
+                <li><a href="#">Términos y Condiciones</a></li>
+                <li><a href="#">Tiendas</a></li>
+                <li><a href="#">Politicas de Privacidad</a></li>
+            </ul>
+        </div>
+      <p><span> NATURAL🍃 </span> </p>
+       </footer>
+       <script src="./main.js"></script>
+
+       </body>
+     </html>

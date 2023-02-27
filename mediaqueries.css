@@ -1,0 +1,124 @@
+@media (max-width: 992px) {
+    .navbar {
+        gap: 5px;
+    }
+    .navbar-list {
+        position: absolute;
+        top: 99px;
+        left: 5%;
+        right: 5%;
+        width: 90%;
+        flex-direction: column;
+        background-color: #6d8b74e8;
+        border: 2px solid #000000;
+        border-top: 0px;
+        border-radius: 0px 0px 15px 15px;
+        align-items: flex-start;
+        padding: 45px 30px;
+        gap: 25px;
+        z-index: 2;
+        display: none;
+    }
+    .navbar-list a {
+        font-size: 18px;
+        color: rgb(255, 255, 255);
+
+    }
+    .open-menu {
+        display: flex;
+      }
+      .navbar-list a {
+        font-size: 18px;
+        font-weight: 800;
+      }
+      .menu-label {
+        display: flex;
+        cursor: pointer;
+        order: 2;
+      }
+      .menu-label img {
+        height: 40px;
+        width: 40px;
+      }
+    
+      .menu-icon {
+        margin-right: 15px;
+        font-size: 26px;
+        cursor: pointer;
+    }
+}
+
+
+@media (max-width: 560px) {
+    .heroimg {
+    display: none;
+       }
+    .cts {
+        display: none;
+    }
+    .contenedorcontacto {
+        display: none;
+    }
+  
+   
+}
+@media (max-width: 395px) {
+    .footer-link {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+       
+    }
+    .categories {
+        flex-direction: column-reverse;
+    }
+    .redes {
+        gap: 90px;
+    }
+    .productoss {
+        width: 230px;
+        
+    }
+    #products {
+        padding-top: 0px;
+
+    }
+    .img-pz {
+        height: 30vh;
+    }
+    .infoenvios h1 {
+        font-size: 15px;
+        font-size: small;
+    }
+    .product {
+        width: 250px;
+    }
+    .img-p {
+        height: 200px;
+    }
+    #contacto {
+        padding: 0px;
+    }
+    #info {
+        padding: 0px;
+    }
+    .cart {
+        padding: 0px 50px;
+      
+      }
+    .cart-item {
+        width: 245px;
+    }
+
+
+
+}
+@media (max-width: 280px) {
+    .cards-container {
+        width: 240px;
+    }
+    .redes {
+        gap: 40px;
+    }
+ 
+}

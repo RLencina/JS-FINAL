@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Natural</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="animaciones.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+      <header>
+        <img src="./img/verde sf.png" alt="Logo Natural" class="logo">
+        <nav class="navbar">
+            
+            <label for="menu-toggle" class="menu-label">
+                <i class="fa-solid fa-bars menu-icon"></i>
+              </label>
+
+            <ul class="navbar-list">
+                <li><a href="#hero">Inicio</a></li>
+                <li><a href="#secciones">Secciones</a></li>
+                <li><a href="#products">Productos</a></li>
+                <li><a href="#info">Nosotros</a></li>
+                <li><a href="#contacto">Contacto</a></li>   
+                <li><a href="./login.html">Ingresar</a></li>   
+
+            </ul>
+
+
+            <!--------------------carrito-------------->
+            <div class="cart-label">
+        
+                <i class="fa-solid fa-cart-shopping cart-icon">
+                  <div class="cart-bubble">0</div>
+                </i>
+              </div>
+        
+        
+              <div class="cart">
+        
+                <h2>Productos</h2>
+        
+        
+                <div class="cart-container">
+        
+                </div>
+        
+                <span class="divider"></span>
+        
+                <div class="cart-total">
+                  <p>Total:</p>
+                  <span class="total"></span>
+                </div>
+                <button class="btn-buy">Comprar</button>
+                <button class="btn-delete">Vaciar carrito</button>
+              </div>
+        
+              <div class="overlay"></div>
+
+      </nav>
+      </header>
+      <main>
+        <section id="hero">
+            <div class="heroimg">
+             </div>
+
+       <section id="secciones">
+        <div class="seccion1">
+            <div class="productoss">
+               <img src="./img/cuidado facial.jpg" alt="Cuidado Facial" class="img-pz">
+                <span class="divider"></span>
+               <div class="seccion-info">
+                   <div class="nombre">
+                           <button class="btnCart"><h3>Cuidado Facial</h3></button>
+                       </div>
+                     </div>
+                     </div>
+
+          <div class="productoss">
+             <img src="./img/cuidado corporal.jpg" alt="Cuidado Corporal" class="img-pz">
+                 <span class="divider"></span>
+                 <div class="seccion-info">
+                     <div class="nombre">
+                    <button class="btnCart"><h3>Cuidado Corporal</h3></button>
+            </div>
+            </div>
+             </div>
+
+             <div class="productoss">
+               <img src="./img/cuidado capilar.jpg" alt="Cuidado Capilar" class="img-pz">
+                  <span class="divider"></span>
+                 <div class="seccion-info">
+                   <div class="nombre">
+                    <button class="btnCart"><h3>Cuidado Capilar</h3></button>
+              </div>
+                </div>
+             </div>
+
+                    </div>
+         </section>      
+         <section id="products">
+            <h2>PRODUCTOS</h2>
+            <div class="categories">
+                <button class="category active">TODOS</button>
+                <button class="category"  data-category="FACIAL">FACIAL</button>
+                <button class="category"  data-category="CORPORAL">CORPORAL</button>
+                <button class="category"  data-category="CAPILAR">CAPILAR</button>
+
+            </div>
+            <div class="products-container">
+            </div> 
+            <button class="Btn-load">Ver más</button>
+         </section>
+         <section id="info">
+            <div class="info-cards">
+                <div class="cards-container">
+                    <img src="./img/crueltyfree.png" alt="Icono Sin maldad animal" >
+                 </div>
+                 <div class="cards-container">
+                    <img src="./img/biodegradable.png" alt="Icono biodegradable" >
+                  </div>
+                  <div class="cards-container">
+                    <img src="./img/paraben.png" alt="Icono parabeno" >
+                </div>
+                <div class="cards-container">
+                    <img src="./img/vegan.png" alt="Icono vegan" >
+                </div>
+
+            </div>
+        </section>
+        <section id="envios">
+            <div class="infoenvios">
+                <h1>ENVIO GRATIS CON TU COMPRA SUPERIOR A $20.000</h1>
+                <p>Capital Federal desde $2.000 - Interior desde $4.000</p>
+            </div>
+        </section>
+        <h2>CONTACTANOS</h2>
+        <section id="contacto">
+            
+            <div class="cts">
+                <form class="formu">
+                    <h3>Recibí Nuestras Novedades</h3>
+                    <p>Recibí en tu mail nuestras novedades, promociones e información sobre nuestros productos.</p>
+                    <label for="name">Nombre</label>
+                    <input type="text" id="name" class="input1" placeholder="Escriba aquí su Nombre">
+                    <label for="gmail">Gmail</label> 
+                    <input type="text" id="gmail" class="input1" placeholder="Escriba aquí su Email">
+                    <label for="telefono">Teléfono</label>
+                    <input type="text" id="telefono" class="input1" placeholder="Escriba aquí su Teléfono">
+                    <button class="botonform">Enviar</button>
+                </form>
+            </div>
+           
+               </div>
+               <div class="divdatos">
+                   <div class="datos1">
+                <img src="./img/casa.png" alt="casita" class="logo1">
+                
+                <div class="datos2 ">
+                   <span>Córdoba Capital</span>
+                   <p>Av. Chacabuco 2600</p>
+                </div>
+                   </div>
+
+                   <div class="datos1">
+                       <img src="./img/mail.png" alt="correo" class="logo1">
+                       
+                       <div class="datos2 ">
+                          <span>Natural@gmail.com</span>
+                          <p>¡Dejanos tu consulta!</p>
+                       </div>
+                          </div>
+
+                          <div class="datos1">
+                           <img src="./img/telefono.png" alt="celular" class="logo1">
+                           
+                           <div class="datos2 ">
+                              <span>3513392233</span>
+                              <p>¡Escribinos!</p>
+                           </div>
+                              </div>
+
+               </div> 
+           </div>
+        </div> 
+        <div class="contenedorcontacto">
+                <div class="divmapa">
+                   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3404.290592817311!2d-64.1868918!3d-31.433665999999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432a28cdb0faa4d%3A0x2165dc82e76b813c!2sChacabuco%202600%2C%20C%C3%B3rdoba!5e0!3m2!1ses-419!2sar!4v1677068312436!5m2!1ses-419!2sar" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                 </div>
+       </section>
+      </main>
+      <footer>
+        <div>
+            <ul class="footer-link">
+                <li><a href="#">Términos y Condiciones</a></li>
+                <li><a href="#">Tiendas</a></li>
+                <li><a href="#">Politicas de Privacidad</a></li>
+            </ul>
+            <ul class="redes">
+                <div> <img src="./img/instagram.png" class="img1"></div>
+                <div> <img src="./img/twitter.png" class="img1"></div>
+                <div> <img src="./img/facebook.png" class="img1"></div>
+                
+            </ul>
+        </div>
+      <p><span> NATURAL🍃 </span> </p>
+       </footer>
+       <div class="add-modal"></div>
+       <script src="./data.js"></script>
+       <script src="./index.js"></script>
+</body>
+</html>
